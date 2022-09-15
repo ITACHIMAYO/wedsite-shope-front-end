@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="src/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>MAYO</title>
+    <link rel="shortcut icon" href="src/img/logo-title.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script defer src="src/js/navbar.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="nav-logo nav-link">
+                <i class='bx bx-shopping-bag'></i>MAYO
+            </a>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <i class='bx bx-menu'></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="index.html" class="nav-menu-link nav-link">Inicio</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="src/complement/shop.html" class="nav-menu-link nav-link">Tienda</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="src/complement/contact.html" class="nav-menu-link nav-link">Conócenos</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#" class="nav-menu-link nav-link">
+                        <i class='bx bx-user'></i>
+                        <i class='bx bx-chevron-down'></i>
+                    </a>
+                    <ul class="nav-submenu">
+                        <a href="#" class="nav-link-sub">
+                            <li class="nav-menu-item-sub">Inicia Sesion</li>
+                        </a>
+                        <a href="#" class="nav-link-sub">
+                            <li class="nav-menu-item-sub">Registrarse</li>
+                        </a>
+                    </ul>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#cart" class="nav-menu-link nav-link nav-menu-link_active">
+                        <i class='bx bxs-cart'></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="banner-home">
+        <div class="banner">
+            <h4>Los recién llegados</h4>
+            <h1><span>MEJOR PRECIO</span> ESTE AÑO</h1>
+            <p>No dejes para mañana, lo que puedes comprar hoy.</p>
+        </div>
+    </section>
+    <section id="brand" class="section-p1">
+        <div class="row">
+            <img class="brand-img" src="src/img/brand/Levis-Logo.png" alt="Levis Logo">
+            <img class="brand-img" src="src/img/brand/Gucci-logo.png" alt="Gucci logo">
+            <img class="brand-img" src="src/img/brand/Vans-Logo.png" alt="Vans Logo">
+            <img class="brand-img" src="src/img/brand/Converse-Logo.png" alt="Converse Logo">
+            <img class="brand-img" src="src/img/brand//Puma-Logo-5.png" alt="Puma Logo">
+            <img class="brand-img" src="src/img/brand/NikeLogo.png" alt="Nike Logo">
+        </div>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>Productos Destacados</h2>
+        <p>colección de verano nuevo diseño moderno</p>
+        <div class="pro-container">
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/r1.jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>Wezndes</span>
+                    <h5 class="item-title">Camiseta de manga corta Harajuku de mujer</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <h4 class="item-price">$120</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/r2.jpg" alt="">
+                <div class="des">
+                    <span>Wezndes</span>
+                    <h5 class="item-title">Camiseta de manga corta Harajuku de mujer</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <h4 class="item-price">$140</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/r3.jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>Wezndes</span>
+                    <h5 class="item-title">Camiseta de manga corta Harajuku de mujer</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <h4 class="item-price">$99</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/r4.jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>Wezndes</span>
+                    <h5 class="item-title">Camiseta de manga corta Harajuku de mujer</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <h4 class="item-price">$89.50</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/v1.jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>cryptographic</span>
+                    <h5 class="item-title">Vestido corto sin mangas para mujer azul</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <h4 class="item-price">$100</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/v2.jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>cryptographic</span>
+                    <h5 class="item-title">Vestido corto sin mangas para mujer negro</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <h4 class="item-price">$100</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/v3.jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>cryptographic</span>
+                    <h5 class="item-title">Vestido corto sin mangas para mujer blanco</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <h4 class="item-price">$100</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/v4.jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>cryptographic</span>
+                    <h5 class="item-title">Vestido corto sin mangas para mujer negro</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <h4 class="item-price">$100</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Tus Favoritos De Temporada</h2>
+        <p>Haz la diferencia, sé la diferencia.</p>
+        <div class="pro-container">
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/c1.jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>Converse</span>
+                    <h5 class="item-title">Zapatillas de correr Star Hike Hi Unisex</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <h4 class="item-price">$460</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/c2.jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>Converse</span>
+                    <h5 class="item-title">Zapatillas de correr Star Hike Hi Unisex</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <h4 class="item-price">$460</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/c3.jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>Converse</span>
+                    <h5 class="item-title">Zapatillas de correr Star Hike Hi Unisex</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <h4 class="item-price">$460</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/c4.jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>Converse</span>
+                    <h5 class="item-title">Zapatillas de correr Star Hike Hi Unisex</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <h4 class="item-price">$460</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/z1 (1).jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>Ekouaer</span>
+                    <h5 class="item-title">Zapatillas de atletismo Deportivo Atlético</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <h4 class="item-price">$360</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/z1 (2).jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>Ekouaer</span>
+                    <h5 class="item-title">Zapatillas de atletismo Deportivo Atlético</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <h4 class="item-price">$360</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/z1 (3).jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>Ekouaer</span>
+                    <h5 class="item-title">Zapatillas de atletismo Deportivo Atlético</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <h4 class="item-price">$360</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+            <div class="item pro">
+                <img class="item-image" src="src/img/product/z1 (4).jpg" alt=""
+                    onclick="window.location.href='src/complement/sproduct.html';">
+                <div class="des">
+                    <span>Ekouaer</span>
+                    <h5 class="item-title">Zapatillas de atletismo Deportivo Atlético</h5>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <h4 class="item-price">$360</h4>
+                </div>
+                <button><i class='bx bx-cart cart addToCart'></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <div id="banner-cart">
+            <h2>Carrito De Compra</h2>
+        </div>
+        <div class="shoppingCartItemsContainer">
+
+        </div>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="subtotal">
+            <h3>Carrito Total</h3>
+            <table>
+                <tr>
+                    <td>Envio</td>
+                    <td>$0</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong class="shoppingCartTotal">$0</strong></td>
+                </tr>
+            </table>
+            <button class="btPagar comprarButton">Proceder al pago</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <a href="index.html" class="nav-logo nav-link">
+                <i class='bx bx-shopping-bag'></i>MAYO
+            </a>
+            <h4>Contacto</h4>
+            <p><strong>Direccion:</strong> Av. Cuauhtemoc 40 Acapulco Guerrero</p>
+            <p><strong>Telefono:</strong>+01 2222 365 /(+52)744251555544</p>
+            <p><strong>Horario:</strong>Lunes-Viernes, 10am-8:00pm</p>
+        </div>
+        <div class="follow">
+            <h4>Redes Sociales</h4>
+            <div class="icon">
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-tiktok'></i>
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-pinterest'></i>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">sobre nosotros</a>
+            <a href="#">información de entrega</a>
+            <a href="#">política de privacidad</a>
+            <a href="#">términos y condiciones</a>
+            <a href="#">contacta con nosotros</a>
+        </div>
+        <div class="col">
+            <h4>Mi Cuenta</h4>
+            <a href="#">registrarse</a>
+            <a href="#">ver carrito</a>
+            <a href="#">mi lista de deseos</a>
+            <a href="#">rastrear mi pedido</a>
+            <a href="#">ayuda</a>
+        </div>
+        <div class="copy">
+            <p>© 2022-2022 Mayo.com, antonio mayo</p>
+        </div>
+    </footer>
+
+    <script src="src/js/shopcart.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>MAYO</title>
+    <link rel="shortcut icon" href="../img/logo-title.png">
+    <script defer src="../js/navbar.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="../../index.html" class="nav-logo nav-link">
+                <i class='bx bx-shopping-bag'></i>MAYO
+            </a>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <i class='bx bx-menu'></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="../../index.html" class="nav-menu-link nav-link">Inicio</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="../complement/shop.html" class="nav-menu-link nav-link">Tienda</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="contact.html" class="nav-menu-link nav-link">Conócenos</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#" class="nav-menu-link nav-link">
+                        <i class='bx bx-user'></i>
+                        <i class='bx bx-chevron-down'></i>
+                    </a>
+                    <ul class="nav-submenu">
+                        <a href="#" class="nav-link-sub">
+                            <li class="nav-menu-item-sub">Inicia Sesion</li>
+                        </a>
+                        <a href="#" class="nav-link-sub">
+                            <li class="nav-menu-item-sub">Registrarse</li>
+                        </a>
+                    </ul>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="cart.html" class="nav-menu-link nav-link nav-menu-link_active">
+                        <i class='bx bxs-cart'></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="../img/product/r1.jpg" width="100%" id="mainImg" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="../img/product/r1.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img/product/r2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img/product/r3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img/product/r4.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <div>
+                <a href="../../index.html">Inicio</a> /
+                <a href="shop.html">Tienda</a>
+            </div>
+            <h4>Camiseta de manga corta Harajuku para mujer</h4>
+            <h2>$120.00</h2>
+            <select>
+                <option>Talla</option>
+                <option>Chica</option>
+                <option>Mediana</option>
+                <option>Grande</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal addToCart">Añadir Al Carrito</button>
+            <h4>Descripción del producto</h4>
+            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam pariatur fuga repudiandae ipsam
+                ullam vel architecto aperiam magni officia suscipit odio cupiditate ab nulla mollitia, ipsum laborum.
+                Sit, eveniet accusamus.</span>
+        </div>
+    </section>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <a href="../..index.html" class="nav-logo nav-link">
+                <i class='bx bx-shopping-bag'></i>MAYO
+            </a>
+            <h4>Contacto</h4>
+            <p><strong>Direccion:</strong> Av. Cuauhtemoc 40 Acapulco Guerrero</p>
+            <p><strong>Telefono:</strong>+01 2222 365 /(+52)744251555544</p>
+            <p><strong>Horario:</strong>Lunes-Viernes, 10am-8:00pm</p>
+        </div>
+        <div class="follow">
+            <h4>Redes Sociales</h4>
+            <div class="icon">
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-tiktok'></i>
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-pinterest'></i>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">sobre nosotros</a>
+            <a href="#">información de entrega</a>
+            <a href="#">política de privacidad</a>
+            <a href="#">términos y condiciones</a>
+            <a href="#">contacta con nosotros</a>
+        </div>
+        <div class="col">
+            <h4>Mi Cuenta</h4>
+            <a href="#">registrarse</a>
+            <a href="#">ver carrito</a>
+            <a href="#">mi lista de deseos</a>
+            <a href="#">rastrear mi pedido</a>
+            <a href="#">ayuda</a>
+        </div>
+        <div class="copy">
+            <p>© 2022-2022 Mayo.com, antonio mayo</p>
+        </div>
+    </footer>
+
+    <script>
+        var MainImg = document.getElementById("mainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function () {
+
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function () {
+
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function () {
+
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function () {
+
+            MainImg.src = smallimg[3].src;
+        }
+
+
+    </script>
+
+</body>
+
+</html>
